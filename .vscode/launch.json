@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - readIndefiniteLine",
+            "request": "launch",
+            "mainClass": "readIndefiniteLine",
+            "projectName": "PERSONAL PROJECTS_cc5521bf"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - typeCasting",
             "request": "launch",
             "mainClass": "typeCasting",
