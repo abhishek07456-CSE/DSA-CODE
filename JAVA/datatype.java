@@ -5,6 +5,7 @@ public class datatype{
       String c = "hello world";
       char d = 'a';
       byte e = -126;
-     System.out.print(e);
+      float f  = 1.22f;
+     System.out.printf("%0.2f",f);
    }
 }

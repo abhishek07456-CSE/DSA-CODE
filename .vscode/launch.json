@@ -6,30 +6,30 @@
     "configurations": [
         {
             "type": "java",
-            "name": "CodeLens (Launch) - readIndefiniteLine",
+            "name": "CodeLens (Launch) - foreachloop",
             "request": "launch",
-            "mainClass": "readIndefiniteLine",
+            "mainClass": "foreachloop",
             "projectName": "PERSONAL PROJECTS_cc5521bf"
         },
         {
             "type": "java",
-            "name": "CodeLens (Launch) - typeCasting",
+            "name": "CodeLens (Launch) - date_format",
             "request": "launch",
-            "mainClass": "typeCasting",
+            "mainClass": "date_format",
             "projectName": "PERSONAL PROJECTS_cc5521bf"
         },
         {
             "type": "java",
-            "name": "CodeLens (Launch) - object_def",
+            "name": "CodeLens (Launch) - decimal_format",
             "request": "launch",
-            "mainClass": "object_def",
+            "mainClass": "decimal_format",
             "projectName": "PERSONAL PROJECTS_cc5521bf"
         },
         {
             "type": "java",
-            "name": "CodeLens (Launch) - poly_function_overloading",
+            "name": "CodeLens (Launch) - output_format",
             "request": "launch",
-            "mainClass": "poly_function_overloading",
+            "mainClass": "output_format",
             "projectName": "PERSONAL PROJECTS_cc5521bf"
         },
         {
@@ -41,17 +41,51 @@
         },
         {
             "type": "java",
-            "name": "CodeLens (Launch) - sum",
+            "name": "CodeLens (Launch) - poly_function_overloading",
             "request": "launch",
-            "mainClass": "sum",
+            "mainClass": "poly_function_overloading",
             "projectName": "PERSONAL PROJECTS_cc5521bf"
         },
         {
-            "type": "chrome",
+            "type": "java",
+            "name": "CodeLens (Launch) - non_tail_recursion",
             "request": "launch",
-            "name": "Launch Chrome against localhost",
-            "url": "http://localhost:8080",
-            "webRoot": "${workspaceFolder}"
+            "mainClass": "non_tail_recursion",
+            "projectName": "PERSONAL PROJECTS_cc5521bf"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - tail_recursion",
+            "request": "launch",
+            "mainClass": "tail_recursion",
+            "projectName": "PERSONAL PROJECTS_cc5521bf"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - diwali_bulb_pattern",
+            "request": "launch",
+            "mainClass": "diwali_bulb_pattern",
+            "projectName": "PERSONAL PROJECTS_cc5521bf"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - pattern",
+            "request": "launch",
+            "mainClass": "pattern"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - pattern",
+            "request": "launch",
+            "mainClass": "pattern",
+            "projectName": "PERSONAL PROJECTS_cc5521bf"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - move_new_office",
+            "request": "launch",
+            "mainClass": "move_new_office",
+            "projectName": "PERSONAL PROJECTS_cc5521bf"
         }
     ]
 }
