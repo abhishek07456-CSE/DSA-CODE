@@ -6,6 +6,83 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - resource",
+            "request": "launch",
+            "mainClass": "resource",
+            "projectName": "PERSONAL PROJECTS_cc5521bf"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - lcm",
+            "request": "launch",
+            "mainClass": "lcm",
+            "projectName": "PERSONAL PROJECTS_cc5521bf"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - remove_duplicate_sorted",
+            "request": "launch",
+            "mainClass": "remove_duplicate_sorted",
+            "projectName": "PERSONAL PROJECTS_cc5521bf"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - print_prime_number",
+            "request": "launch",
+            "mainClass": "print_prime_number",
+            "projectName": "PERSONAL PROJECTS_cc5521bf"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - GFG",
+            "request": "launch",
+            "mainClass": "GFG",
+            "projectName": "PERSONAL PROJECTS_cc5521bf"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - find_pair_having_sum_k_rotated_array",
+            "request": "launch",
+            "mainClass": "find_pair_having_sum_k_rotated_array",
+            "projectName": "PERSONAL PROJECTS_cc5521bf"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - find_max_element_rotated_Sorted_arr",
+            "request": "launch",
+            "mainClass": "find_max_element_rotated_Sorted_arr",
+            "projectName": "PERSONAL PROJECTS_cc5521bf"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - binarySearch_loop",
+            "request": "launch",
+            "mainClass": "binarySearch_loop",
+            "projectName": "PERSONAL PROJECTS_cc5521bf"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - linearserach",
+            "request": "launch",
+            "mainClass": "linearserach",
+            "projectName": "PERSONAL PROJECTS_cc5521bf"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - bitwiseMagic",
+            "request": "launch",
+            "mainClass": "bitwiseMagic",
+            "projectName": "PERSONAL PROJECTS_cc5521bf"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - birwiseOperator",
+            "request": "launch",
+            "mainClass": "birwiseOperator",
+            "projectName": "PERSONAL PROJECTS_cc5521bf"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - foreachloop",
             "request": "launch",
             "mainClass": "foreachloop",

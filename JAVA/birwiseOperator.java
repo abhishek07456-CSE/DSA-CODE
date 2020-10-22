@@ -78,7 +78,10 @@ public class birwiseOperator {
        // swapM2();
        // swapM3();
     //    findUnique();
-    oppositeSign();
+    // oppositeSign();
+    int a =4;
+    int b=-4;
+    System.out.println(a&b);
 
     }
 }

@@ -1,12 +1,11 @@
 public class output_format {
     public static void main(String[] args) {
         int a = 100;
-        System.out.printf("%-5d\n",a);
+        System.out.printf("%05d\n",a);
         String s = "ab";
-        System.out.printf("%5s yes",s);
+        System.out.printf("%-5s yes",s);
         float f =  2324435.3f; 
-        System.out.printf("Formatted to right margin: n = %20.4f\n", f); 
-
+        System.out.printf("Formatted to right margin"+5+"ddd");
     }
     
 }

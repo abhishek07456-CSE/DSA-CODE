@@ -1,6 +1,5 @@
 import java.util.Scanner;
 
-import java.util.Scanner;
 public class appartment_floor {
     public static void main(String[] args) {
         Scanner read = new  Scanner(System.in);
