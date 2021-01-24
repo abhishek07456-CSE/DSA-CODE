@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Bubblesort",
+            "request": "launch",
+            "mainClass": "Bubblesort",
+            "projectName": "PERSONAL PROJECTS_cc5521bf"
+        },
+        {
+            "type": "java",
+            "name": "Launch check_rotated_array_is_sorted",
+            "request": "launch",
+            "mainClass": "check_rotated_array_is_sorted",
+            "projectName": "PERSONAL PROJECTS_cc5521bf"
+        },
+        {
+            "type": "java",
+            "name": "Launch square_root_big_number",
+            "request": "launch",
+            "mainClass": "square_root_big_number",
+            "projectName": "PERSONAL PROJECTS_cc5521bf"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - subarray_sum_k",
+            "request": "launch",
+            "mainClass": "subarray_sum_k",
+            "projectName": "PERSONAL PROJECTS_cc5521bf"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - resource",
             "request": "launch",
             "mainClass": "resource",
