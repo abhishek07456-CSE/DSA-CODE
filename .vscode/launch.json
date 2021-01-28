@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch theatre_square",
+            "request": "launch",
+            "mainClass": "theatre_square",
+            "projectName": "PERSONAL PROJECTS_cc5521bf"
+        },
+        {
+            "type": "java",
+            "name": "Launch password_0to9_replacingdash",
+            "request": "launch",
+            "mainClass": "password_0to9_replacingdash",
+            "projectName": "PERSONAL PROJECTS_cc5521bf"
+        },
+        {
+            "type": "java",
+            "name": "Launch maximum_team",
+            "request": "launch",
+            "mainClass": "maximum_team",
+            "projectName": "PERSONAL PROJECTS_cc5521bf"
+        },
+        {
+            "type": "java",
+            "name": "Launch min_operation_make_array_odd",
+            "request": "launch",
+            "mainClass": "min_operation_make_array_odd",
+            "projectName": "PERSONAL PROJECTS_cc5521bf"
+        },
+        {
+            "type": "java",
+            "name": "Launch directional_move",
+            "request": "launch",
+            "mainClass": "directional_move",
+            "projectName": "PERSONAL PROJECTS_cc5521bf"
+        },
+        {
+            "type": "java",
+            "name": "Launch MergeSort",
+            "request": "launch",
+            "mainClass": "MergeSort",
+            "projectName": "PERSONAL PROJECTS_cc5521bf"
+        },
+        {
+            "type": "java",
+            "name": "Launch ShellSort",
+            "request": "launch",
+            "mainClass": "ShellSort",
+            "projectName": "PERSONAL PROJECTS_cc5521bf"
+        },
+        {
+            "type": "java",
             "name": "Launch InsertionSort",
             "request": "launch",
             "mainClass": "InsertionSort",

@@ -1,0 +1,8 @@
+- git checkout -b myFeature dev (create new branch myfeacture from dev and change also)
+- git branch myFeature dev ; git checkout myFeature; (first create then checkout)
+- git reset head~1
+- git branch -b myFeature (from current branch)
+- git tag tagname
+- git tag -a v1.10
+- git tag -d release1
+
