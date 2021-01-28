@@ -22,7 +22,7 @@ output
 3
 
 */
-public class maximum_team {
+public class __maximum_team {
     public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
     int t = sc.nextInt();
