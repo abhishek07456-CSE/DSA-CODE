@@ -15,10 +15,35 @@ public class SelectionSort {
                 swap(arr,i,min);
           }
      }
+
+     static public void stableSelectionSort(int arr[],int n){
+       // 4(a) 3 2 4(b) 1 = > after first min find is 1 => 1 3 2 4(b) 4(a) relative order lost
+       for(int i = 0 ;i < n-1 ; i++){
+          int min = i;
+          for(int j = i + 1; j < n ;j++){
+               if(arr[j] < arr[min]){
+                 min = j;
+               }
+          }
+          int key = arr[min];
+          while(i<min){
+              arr[min] = arr[min-1];
+              min--;
+          }
+
+
+          arr[i] = key;
+          for(int j =0 ;j < n;j++){
+            System.out.print(arr[j] + " ");
+          }
+          System.out.print("\n");
+
+       }
+   }
     public static void main(String[] args) {
-        int arr[] = {5,4,3,2,1,7,9,11,22,34,67,98,24,56};
+        int arr[] = {4,3,2,4,1};
         int n = arr.length;
-        selectionSort(arr,n);
+        stableSelectionSort(arr,n);
         long start = System.nanoTime();
         for(int i =0 ;i < n;i++){
             System.out.print(arr[i] + " ");
