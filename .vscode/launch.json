@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch SearchElementRotatedArray",
+            "request": "launch",
+            "mainClass": "SearchElementRotatedArray",
+            "projectName": "PERSONAL PROJECTS_cc5521bf"
+        },
+        {
+            "type": "java",
+            "name": "Launch Imitation_game",
+            "request": "launch",
+            "mainClass": "Imitation_game",
+            "projectName": "PERSONAL PROJECTS_cc5521bf"
+        },
+        {
+            "type": "java",
+            "name": "Launch JugglingArrayRotation",
+            "request": "launch",
+            "mainClass": "JugglingArrayRotation",
+            "projectName": "PERSONAL PROJECTS_cc5521bf"
+        },
+        {
+            "type": "java",
+            "name": "Launch CountingSort",
+            "request": "launch",
+            "mainClass": "CountingSort",
+            "projectName": "PERSONAL PROJECTS_cc5521bf"
+        },
+        {
+            "type": "java",
+            "name": "Launch QuickSort",
+            "request": "launch",
+            "mainClass": "QuickSort",
+            "projectName": "PERSONAL PROJECTS_cc5521bf"
+        },
+        {
+            "type": "java",
+            "name": "Launch offer",
+            "request": "launch",
+            "mainClass": "offer",
+            "projectName": "PERSONAL PROJECTS_cc5521bf"
+        },
+        {
+            "type": "java",
             "name": "Launch theatre_square",
             "request": "launch",
             "mainClass": "theatre_square",
