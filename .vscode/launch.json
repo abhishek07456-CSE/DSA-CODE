@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch _PAIR_WISE_SWAP",
+            "request": "launch",
+            "mainClass": "_PAIR_WISE_SWAP",
+            "projectName": "PERSONAL PROJECTS_cc5521bf"
+        },
+        {
+            "type": "java",
+            "name": "Launch duplicate_remove_unsorted_list",
+            "request": "launch",
+            "mainClass": "duplicate_remove_unsorted_list",
+            "projectName": "PERSONAL PROJECTS_cc5521bf"
+        },
+        {
+            "type": "java",
+            "name": "Launch duplicate_remove_sorted_list",
+            "request": "launch",
+            "mainClass": "duplicate_remove_sorted_list",
+            "projectName": "PERSONAL PROJECTS_cc5521bf"
+        },
+        {
+            "type": "java",
+            "name": "Launch floyd_detection_cycle",
+            "request": "launch",
+            "mainClass": "floyd_detection_cycle",
+            "projectName": "PERSONAL PROJECTS_cc5521bf"
+        },
+        {
+            "type": "java",
+            "name": "Launch cyclic_remove_list",
+            "request": "launch",
+            "mainClass": "cyclic_remove_list",
+            "projectName": "PERSONAL PROJECTS_cc5521bf"
+        },
+        {
+            "type": "java",
+            "name": "Launch TripletSum",
+            "request": "launch",
+            "mainClass": "TripletSum",
+            "projectName": "PERSONAL PROJECTS_cc5521bf"
+        },
+        {
+            "type": "java",
             "name": "Launch SearchElementRotatedArray",
             "request": "launch",
             "mainClass": "SearchElementRotatedArray",
