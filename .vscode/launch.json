@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch READ",
+            "request": "launch",
+            "mainClass": "JAVA.FILE_HANDLING.READ",
+            "projectName": "PERSONAL PROJECTS_cc5521bf"
+        },
+        {
+            "type": "java",
+            "name": "Launch DomParser",
+            "request": "launch",
+            "mainClass": "JAVA.XML_FILE_READER.DomParser",
+            "projectName": "PERSONAL PROJECTS_cc5521bf"
+        },
+        {
+            "type": "java",
+            "name": "Launch DomParser",
+            "request": "launch",
+            "mainClass": "DomParser",
+            "projectName": "PERSONAL PROJECTS_cc5521bf"
+        },
+        {
+            "type": "java",
+            "name": "Launch election_road",
+            "request": "launch",
+            "mainClass": "election_road",
+            "projectName": "PERSONAL PROJECTS_cc5521bf"
+        },
+        {
+            "type": "java",
+            "name": "Launch LinkedListMergeSort",
+            "request": "launch",
+            "mainClass": "LinkedListMergeSort",
+            "projectName": "PERSONAL PROJECTS_cc5521bf"
+        },
+        {
+            "type": "java",
+            "name": "Launch reverseSinglyList",
+            "request": "launch",
+            "mainClass": "reverseSinglyList",
+            "projectName": "PERSONAL PROJECTS_cc5521bf"
+        },
+        {
+            "type": "java",
             "name": "Launch _PAIR_WISE_SWAP",
             "request": "launch",
             "mainClass": "_PAIR_WISE_SWAP",

@@ -1,4 +1,4 @@
-public class Bubblesort {
+protected class Bubblesort {
     static public void swap(int arr[] , int i , int j){
         arr[i] = arr[i] ^ arr[j];
         arr[j] = arr[i] ^ arr[j];
