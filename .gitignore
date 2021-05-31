@@ -1,4 +1,7 @@
 *.class
 *.exe.*
 *.metadata
-*.json
+launch.json
+*.vscode
+*.txt
+.vscode
