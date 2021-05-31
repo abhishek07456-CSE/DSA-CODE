@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch FileOPStream",
+            "request": "launch",
+            "mainClass": "JAVA.FILE_HANDLING.FileOPStream",
+            "projectName": "PERSONAL PROJECTS_cc5521bf"
+        },
+        {
+            "type": "java",
+            "name": "Launch birwiseOperator",
+            "request": "launch",
+            "mainClass": "birwiseOperator",
+            "projectName": "PERSONAL PROJECTS_cc5521bf"
+        },
+        {
+            "type": "java",
             "name": "Launch READ",
             "request": "launch",
             "mainClass": "JAVA.FILE_HANDLING.READ",

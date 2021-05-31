@@ -13,7 +13,7 @@ public class birwiseOperator {
           int b=7;
           int temp;
           /* using temp variable
-           in ths method will take extra memory 
+           in ths method will take extra memory
           */
           temp = a;
           a = b;
@@ -23,7 +23,7 @@ public class birwiseOperator {
     public static void swapM2(){
         int a=5;
         int b=7;
-        /* 
+        /*
              a=a*b => 5*7
              b = a/b => a*b/b =>a  i.e 5*7/7 => 5
              a = a/b => a*b/a =>b  i.e 5*7/5 => 7
@@ -36,7 +36,7 @@ public class birwiseOperator {
    public static void swapM3(){
         int a=5;
         int b=7;
-          /* 
+          /*
              a= a^b => 5^7 => 101 ^ 111 => 010 -> 2
              b => a^b =>(a^b)^b  i.e 5^7^7 => 5 (i.e same bit become zero in 7^7)
              a = a^b => (a^b)^a =>b  i.e 5^7^5 => 7
@@ -79,9 +79,13 @@ public class birwiseOperator {
        // swapM3();
     //    findUnique();
     // oppositeSign();
-    int a =4;
-    int b=-4;
-    System.out.println(a&b);
+       fib(0,1,22);
 
+    }
+
+    public static void fib(int i, int j, int k) {
+        if(j>k) return;
+        fib(j,i+j,k);
+        System.out.println(i);
     }
 }
