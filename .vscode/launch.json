@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Directory",
+            "request": "launch",
+            "mainClass": "JAVA.FILE_HANDLING.Directory",
+            "projectName": "PERSONAL PROJECTS_cc5521bf"
+        },
+        {
+            "type": "java",
             "name": "Launch FileOPStream",
             "request": "launch",
             "mainClass": "JAVA.FILE_HANDLING.FileOPStream",
