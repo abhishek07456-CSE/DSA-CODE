@@ -1,0 +1,21 @@
+FILE HANDLING
+-------------
+  WRITE IN FILE
+   -FileOutputStream
+   -FileWriter
+   -FileBufferWriter
+   -decorator
+   -file descriptor
+
+   Directory
+   -isDirectory()
+   -isFile()
+   -listFiles()
+
+   copyFile
+     -FileInputStream,FileOutputStream
+     -desChannel.transferFrom(sourceChannel,0,sourceChannel.size())
+     -FileUtils.copyFile(source, dest);
+     -File.copy(source.toPath(),des.toPath());
+
+
