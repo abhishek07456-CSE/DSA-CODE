@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Inheritance",
+            "request": "launch",
+            "mainClass": "JAVA.OOPS.Inheritence.Inheritance",
+            "projectName": "PERSONAL PROJECTS_cc5521bf"
+        },
+        {
+            "type": "java",
             "name": "Launch SwitchStatement",
             "request": "launch",
             "mainClass": "JAVA.CORE_JAVA.SwitchStatement",
