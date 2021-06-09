@@ -81,14 +81,14 @@ class Bike extends Vehicle {
     }
 }
 class MusicPlayer{
-    private String brand;
+    protected String brand;
     public String getBrand() {
         return brand;
     }
     public void setBrand(String brand) {
         this.brand = brand;
     }
-    MusicPlayer(){
+    protected MusicPlayer(){
         System.out.println("Music Player default constructor called");
     }
 
