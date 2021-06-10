@@ -8,17 +8,31 @@ public class MethodOverriding {
 }
 
 class Parent{
-    public static int a = 1;
+    public static int b = 1;
     Parent(){
         System.out.println("parent cosn called");
     }
-   static void method2(){
-        System.out.println("Parent Method called" + a);
+    Parent(String a){
+        System.out.println("parent param called");
+
+    }
+    {
+        System.out.println("COMMON CODE called");
+
+    }
+    Object method(){ ///covarient return type with for method overiding
+        System.out.println("Parent Method called");
+        return null;
     }
 }
 class child extends Parent{
     public static int a = 2;
-    static void method(){
-        System.out.println("child Method called" + a);
+    child(){
+        // super("hello");
+        System.out.println("child cosn called");
+    }
+    String method(){
+        System.out.println("child Method called" + b);
+        return "HELLO";
     }
 }
