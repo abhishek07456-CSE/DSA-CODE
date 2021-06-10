@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch MethodOverriding",
+            "request": "launch",
+            "mainClass": "JAVA.OOPS.Inheritence.MethodOverriding",
+            "projectName": "PERSONAL PROJECTS_cc5521bf"
+        },
+        {
+            "type": "java",
+            "name": "Launch functionOverloading",
+            "request": "launch",
+            "mainClass": "JAVA.OOPS.Inheritence.functionOverloading",
+            "projectName": "PERSONAL PROJECTS_cc5521bf"
+        },
+        {
+            "type": "java",
             "name": "Launch Inheritance",
             "request": "launch",
             "mainClass": "JAVA.OOPS.Inheritence.Inheritance",
