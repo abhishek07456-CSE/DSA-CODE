@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch stockSpan",
+            "request": "launch",
+            "mainClass": "Data_Structure.Stack.stockSpan",
+            "projectName": "PERSONAL PROJECTS_cc5521bf"
+        },
+        {
+            "type": "java",
             "name": "Launch infixToPostfixToPrefix",
             "request": "launch",
             "mainClass": "Data_Structure.Stack.infixToPostfixToPrefix",

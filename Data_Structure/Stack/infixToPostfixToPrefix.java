@@ -60,7 +60,7 @@ public class infixToPostfixToPrefix {
              st.reverse();
              System.out.println(String.valueOf(st));
     }
-    public static void PostfixInfix(String s){
+    public static String PostfixInfix(String s){
       int l = s.length();
       Stack <String> stack = new Stack <String>();
       try{
@@ -75,6 +75,12 @@ public class infixToPostfixToPrefix {
                System.out.println(e.getMessage());
      }
       System.out.println(stack.peek());
+      return  stack.peek();
+    }
+    public static void prefixInfix(String s){
+        StringBuffer st = new  StringBuffer(s);
+        st.reverse();
+        PostfixInfix(String.valueOf(st));
     }
     public static void main(String[] args) {
         // String s = "(a+b+c)/d";
@@ -82,9 +88,12 @@ public class infixToPostfixToPrefix {
 
         // String s = "ab+c*";
         // PostfixInfix(s);
-        String s = "(a*b+c)/d";
-        infixPrefix(s);
 
+        // String s = "(a*b+c)/d";
+        // infixPrefix(s);
+
+        String s = "/*+abcd";
+        prefixInfix(s);
 
     }
 }
