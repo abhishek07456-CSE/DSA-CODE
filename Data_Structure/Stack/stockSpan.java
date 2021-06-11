@@ -3,6 +3,7 @@ package Data_Structure.Stack;
 import java.util.Stack;
 
 public class stockSpan {
+
     public static int[] calculateSpan(int price[], int n)
     {
         int arr[] = new int[n];
