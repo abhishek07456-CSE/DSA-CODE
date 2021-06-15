@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ReverseStack",
+            "request": "launch",
+            "mainClass": "Data_Structure.Stack.ReverseStack",
+            "projectName": "PERSONAL PROJECTS_cc5521bf"
+        },
+        {
+            "type": "java",
             "name": "Launch SortStack",
             "request": "launch",
             "mainClass": "Data_Structure.Stack.SortStack",
