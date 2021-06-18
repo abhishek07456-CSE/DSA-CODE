@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch balanceBracketReversal",
+            "request": "launch",
+            "mainClass": "Data_Structure.Stack.balanceBracketReversal",
+            "projectName": "PERSONAL PROJECTS_cc5521bf"
+        },
+        {
+            "type": "java",
+            "name": "Launch TowerOfHonoi",
+            "request": "launch",
+            "mainClass": "Data_Structure.Stack.TowerOfHonoi",
+            "projectName": "PERSONAL PROJECTS_cc5521bf"
+        },
+        {
+            "type": "java",
+            "name": "Launch maximumHistogram",
+            "request": "launch",
+            "mainClass": "Data_Structure.Stack.maximumHistogram",
+            "projectName": "PERSONAL PROJECTS_cc5521bf"
+        },
+        {
+            "type": "java",
             "name": "Launch ReverseStack",
             "request": "launch",
             "mainClass": "Data_Structure.Stack.ReverseStack",
