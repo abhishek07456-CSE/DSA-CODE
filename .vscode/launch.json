@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch LongestValidSubstring",
+            "request": "launch",
+            "mainClass": "Data_Structure.Stack.LongestValidSubstring",
+            "projectName": "PERSONAL PROJECTS_cc5521bf"
+        },
+        {
+            "type": "java",
+            "name": "Launch LongestSubstringNonRepeating",
+            "request": "launch",
+            "mainClass": "Data_Structure.String.LongestSubstringNonRepeating",
+            "projectName": "PERSONAL PROJECTS_cc5521bf"
+        },
+        {
+            "type": "java",
             "name": "Launch balanceBracketReversal",
             "request": "launch",
             "mainClass": "Data_Structure.Stack.balanceBracketReversal",
