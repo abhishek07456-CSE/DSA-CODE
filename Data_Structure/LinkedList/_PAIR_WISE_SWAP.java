@@ -1,3 +1,5 @@
+package Data_Structure.LinkedList;
+
 import java.util.HashSet;
 
 class Node {

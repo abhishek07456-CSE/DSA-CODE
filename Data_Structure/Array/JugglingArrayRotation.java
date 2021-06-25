@@ -1,3 +1,5 @@
+package Data_Structure.Array;
+
 public class JugglingArrayRotation {
    public static int gcd(int a ,int b){ // 6 , 2
        if(b==0) return a;

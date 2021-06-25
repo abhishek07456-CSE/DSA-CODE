@@ -1,3 +1,5 @@
+package Data_Structure.LinkedList;
+
 class Node {
    int data;
    int flag = 1;
