@@ -5,8 +5,15 @@
 --chaining of promise first fetch all roll id , then fetch one of user details ,
   then fetch course details of user so these call actually dependent
   on each other so here chaining used for synchronous callback
-  
+
 Advantage - more readability and maintainability
+
+finally - always run when promise settled i.e resolve or rejected
+promises state
+        - pending (some task done in future)
+        - resolve
+        - reject
+        - settled
 */
 
 const rollPromise = () => {
@@ -55,16 +62,20 @@ const promise = new Promise((resolve, reject) => {
         return userPromise(rollIdDetails).then((userDetails) => {
             console.log(userDetails);
             return coursePromise(userDetails['course_id']).then((courseDetails) => {
-                 console.log(courseDetails);
+                console.log(courseDetails);
             }).catch((e) => {
                 console.log(e);
+            }).finally(() => {
+                console.log("promise settled course details success");
             });
         }).catch((e) => {
             console.log(e);
+        }).finally(() => {
+            console.log("promise settled User details success");
         });
     }).catch((e) => {
         console.log(e);
+    }).finally(() => {
+        console.log("promise settled RollId details success");
     });
-}).catch((e) => {
-    console.log(e);
 });
