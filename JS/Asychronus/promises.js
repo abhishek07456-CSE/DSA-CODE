@@ -1,7 +1,13 @@
 
-//get rollid after 2 sec
-//get userdetails after 2 sec
-//get coursedetails after 3 sec
+/*get rollId after 2 sec
+                get userDetails after 2 sec
+                              get courseDetails after 3 sec
+--chaining of promise first fetch all roll id , then fetch one of user details ,
+  then fetch course details of user so these call actually dependent
+  on each other so here chaining used for synchronous callback
+  
+Advantage - more readability and maintainability
+*/
 
 const rollPromise = () => {
     return new Promise((resolve, reject) => {
