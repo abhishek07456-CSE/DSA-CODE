@@ -83,7 +83,8 @@ class BstPreToPost {
     }
 
     public static void main(String[] args) {
-        int arr[] = { 9, 3, 2, 6, 5, 8, 10 };
+        // int arr[] = { 9, 3, 2, 6, 5, 8, 10 };
+        int arr[] = {2,1,3};
         // Node root = preToPostBST(arr);
         Node root = recursivePreToPost(arr);
         PostOrderTraversal(root);
