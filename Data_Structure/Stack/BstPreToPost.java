@@ -14,6 +14,18 @@ class Node {
 }
 
 class BstPreToPost {
+    private static int index = 0;
+    public static Node constructTree(int pre[] , int min , int max ){
+        if(index >= pre.length) return null;
+        if(pre[index]<min || pre[index] > max) return null;
+            Node node = new Node(pre[index++]);
+            node.left = constructTree(pre,min, node.data);
+            node.right= constructTree(pre, node.data , max);
+            return node;
+    }
+    public static Node recursivePreToPost(int pre[]){
+        return constructTree(pre, Integer.MIN_VALUE , Integer.MAX_VALUE);
+    }
     public static Node preToPostBST(int pre[]) {
         int size = pre.length;
         Stack<Node> stack = new Stack<Node>();
@@ -72,7 +84,8 @@ class BstPreToPost {
 
     public static void main(String[] args) {
         int arr[] = { 9, 3, 2, 6, 5, 8, 10 };
-        Node root = preToPostBST(arr);
+        // Node root = preToPostBST(arr);
+        Node root = recursivePreToPost(arr);
         PostOrderTraversal(root);
     }
 }
