@@ -45,7 +45,7 @@ class BstPreToPost {
                     peek = stack.peek();
                     if (peek.left == null) {
                         peek.left = pop; // last pop is left element in peek 7->6 then 9->7 now 9|8 in stack and last is
-                                         // 7 when right come
+                                         // 7 when right come so 7 right addded when next element added
                     }
                 }
                 last = pop;
