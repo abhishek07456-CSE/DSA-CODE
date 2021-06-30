@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch BstPreToPost",
+            "request": "launch",
+            "mainClass": "Data_Structure.Stack.BstPreToPost",
+            "projectName": "PERSONAL PROJECTS_cc5521bf"
+        },
+        {
+            "type": "java",
             "name": "Launch stack_132",
             "request": "launch",
             "mainClass": "Data_Structure.Stack.stack_132",
