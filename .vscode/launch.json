@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch simplifyDirectory",
+            "request": "launch",
+            "mainClass": "Data_Structure.Stack.simplifyDirectory",
+            "projectName": "PERSONAL PROJECTS_cc5521bf"
+        },
+        {
+            "type": "java",
             "name": "Launch RainWater",
             "request": "launch",
             "mainClass": "Data_Structure.Stack.RainWater",
