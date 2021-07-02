@@ -25,12 +25,17 @@ let a = "hee;;o";
     console.log(char);
   }
 
-  let obj = {"name" : "abhishek" , age : 18};
+  let obj = {name : "abhishek" , age : 18};
   console.log(obj);
-  console.log("for of -----")
+  console.log("for in -----")
   //object.keys
   //object.values
   //object.entries
+  for(let key in obj){
+   console.log(`${key} : ${obj[key]}`);
+  }
+  console.log("for in -----")
+
   for(let char of Object.entries(obj)){
      const [key , value] = char;
     console.log(value);
