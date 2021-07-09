@@ -45,7 +45,6 @@ Disadvantage
 
 */
 function grandparent(){
-    debugger
     let name = "grandparent"; // private not accessible outside world
     let bk  = 2;
     console.log("grand parent called");
@@ -55,6 +54,7 @@ function grandparent(){
         let name = "parent";
         // child(); // Hoisting created all function variable are defined in top of scope
         function child(){
+            debugger
             console.log(bk);
             console.log("child called");
             // let name = "child"; // if this not find then check in parent closure if also not find in parent then check in grandparent then main
