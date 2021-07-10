@@ -79,7 +79,9 @@ public class birwiseOperator {
        // swapM3();
     //    findUnique();
     // oppositeSign();
-       fib(0,1,22);
+    //    fib(0,1,22);
+       System.out.println(Math.min(Double.MIN_VALUE, 0.0d));
+
 
     }
 

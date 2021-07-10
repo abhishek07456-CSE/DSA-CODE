@@ -1,3 +1,7 @@
 {
-    "files.trimTrailingWhitespace": true
+    "files.trimTrailingWhitespace": true,
+    "java.project.sourcePaths": [
+        "Data_Structure",
+        "JAVA/CORE_JAVA"
+    ]
 }
