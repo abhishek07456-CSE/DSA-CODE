@@ -3,6 +3,7 @@ function sum (a,b,c,d){
 }
 console.log(sum(1,2,3,4)); //but if more then 4 argument
 
+//argument object function
 
 sum(1,2,3,4,5,6,7,8,9);
 function sum(){
