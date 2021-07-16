@@ -16,3 +16,4 @@ user.email?.();
 // user?.name = "hello"; // throw error
 user?.getDetails?.()
 delete user?.address;
+console.log("address" in user);
